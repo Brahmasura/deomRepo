@@ -1,7 +1,7 @@
 {
   "name": "tdpractice",
   "version": "0.1.0",
-  "homepage": "https://github.com/Brahmasura/deomRepo/",
+  "homepage": "https://Brahmasura.github.io/deomRepo/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
