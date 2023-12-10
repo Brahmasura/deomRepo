@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/deomRepo/static/css/main.dbdeb8fb.css",
-    "main.js": "/deomRepo/static/js/main.a5a01533.js",
+    "main.js": "/deomRepo/static/js/main.14b4cd1a.js",
     "static/js/787.7eaaa859.chunk.js": "/deomRepo/static/js/787.7eaaa859.chunk.js",
     "index.html": "/deomRepo/index.html",
     "main.dbdeb8fb.css.map": "/deomRepo/static/css/main.dbdeb8fb.css.map",
-    "main.a5a01533.js.map": "/deomRepo/static/js/main.a5a01533.js.map",
+    "main.14b4cd1a.js.map": "/deomRepo/static/js/main.14b4cd1a.js.map",
     "787.7eaaa859.chunk.js.map": "/deomRepo/static/js/787.7eaaa859.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbdeb8fb.css",
-    "static/js/main.a5a01533.js"
+    "static/js/main.14b4cd1a.js"
   ]
 }
