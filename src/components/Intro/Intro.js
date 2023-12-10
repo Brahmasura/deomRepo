@@ -21,6 +21,12 @@ const Intro = ({taskList, setTaskList}) => {
      setIsReady(false);
   }
 
+  const handleKeyDown = (e) => {
+    if(e.key === "Enter"){
+        handleSubmit(task);
+    }
+  }
+
   return (
     <div className={style.introDiv}>
       {isReady ? (
@@ -31,6 +37,7 @@ const Intro = ({taskList, setTaskList}) => {
             value={task}
             placeholder="type you task"
             onChange={handleChange}
+            onKeyDown={handleKeyDown}
           />
         </>
       ) : (
