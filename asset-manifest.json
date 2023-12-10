@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Brahmasura/deomRepo/static/css/main.dbdeb8fb.css",
+    "main.js": "/Brahmasura/deomRepo/static/js/main.75368709.js",
+    "static/js/787.7eaaa859.chunk.js": "/Brahmasura/deomRepo/static/js/787.7eaaa859.chunk.js",
+    "index.html": "/Brahmasura/deomRepo/index.html",
+    "main.dbdeb8fb.css.map": "/Brahmasura/deomRepo/static/css/main.dbdeb8fb.css.map",
+    "main.75368709.js.map": "/Brahmasura/deomRepo/static/js/main.75368709.js.map",
+    "787.7eaaa859.chunk.js.map": "/Brahmasura/deomRepo/static/js/787.7eaaa859.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbdeb8fb.css",
+    "static/js/main.75368709.js"
+  ]
+}
