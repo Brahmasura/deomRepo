@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Intro from "./components/Intro/Intro";
+import TodoItem from "./components/ToDoItem/TodoItem";
 
 function App() {
+  const [taskList, setTaskList] = useState([]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>to do practice app</h1>
+      {/* intro component */}
+      <Intro taskList={taskList} setTaskList={setTaskList} />
+
+      {/* rest of the task list component */}
+      <div className="itemDiv">
+        {taskList.map((element, index) => {
+          return (
+            <TodoItem
+              name={element.name}
+              index={index}
+              taskList={taskList}
+              setTaskList={setTaskList}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
